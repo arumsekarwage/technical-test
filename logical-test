@@ -1,0 +1,7 @@
+from collections import Counter
+
+objA = {'a':10, 'b':20, 'c':30}
+objB = {'a':3, 'c':6, 'd':3}
+
+result = Counter(objA) + Counter(objB)
+dict(result)
